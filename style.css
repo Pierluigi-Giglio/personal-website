@@ -1,0 +1,565 @@
+/*GENERAL STYLES*/
+
+h1 {
+	font-family: ProximaNova-Regular;
+	font-size: 42px;
+	color: #323C47;
+	letter-spacing: 0;
+	line-height: 60px;
+	margin-top: 220px;
+}
+
+h2 {
+	font-family: ProximaNova-Regular;
+	font-size: 32px;
+	color: #323C47;
+	letter-spacing: 0;
+	line-height: 40px;
+}
+
+h3 {
+	font-family: ProximaNova-Regular;
+	font-size: 26px;
+	color: #323C47;
+	letter-spacing: 0;
+}
+
+h4 {
+	text-transform: uppercase;
+	font-family: ProximaNova-Bold;
+	font-size: 14px;
+	color: #989898;
+	letter-spacing: 0.5px;
+}
+
+p {
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #989898;
+	letter-spacing: 0;
+	line-height: 28px;
+}
+
+hr {
+	border: 0;
+    height: 1px;
+    margin: 50px auto;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.dribbble {
+	content: url('img/about-us/dribbble.png');
+	transition-duration: 4s;
+	transition-property: content;
+	max-height: 2rem;
+}
+
+.dribbble:hover {
+	content: url('img/about-us/dribbble-hover.png');
+}
+
+.linkedin {
+	content: url('img/about-us/linkedin.png');
+	transition-duration: 4s;
+	transition-property: content;
+	max-height: 2rem;
+}
+
+.linkedin:hover {
+	content: url('img/about-us/linkedin-hover.png');
+}
+
+.instagram {
+	content: url('img/about-us/instagram.png');
+	transition-duration: 4s;
+	transition-property: content;
+	max-height: 2rem;
+}
+
+.instagram:hover {
+	content: url('img/about-us/instagram-hover.png');
+}
+
+/*NAVBAR*/
+
+a.navbar-brand {
+	text-transform: uppercase;
+	font-family: ProximaNova-Semibold;
+	font-size: 21px;
+	color: #323C47;
+	letter-spacing: 4.37px;
+	margin-left: 2rem;
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-family: ProximaNova-Semibold;
+	font-size: 14px;
+	font-weight: 100;
+	color: #989898;
+	letter-spacing: 0.57px;
+	margin-right: 2rem;
+}
+
+nav.navbar.navbar-toggleable-md.navbar-light.bg-faded {
+    height: 85px;
+    background-color: white;
+}
+
+/*ABOUT US*/
+
+.icon {
+	transition-property: opacity;
+}
+
+.icon:hover {
+	opacity: 0.8;
+}
+
+.mobile-width {
+	text-transform: uppercase;
+    font-family: ProximaNova-Semibold;
+    font-size: 14px;
+    font-weight: 100;
+    color: #989898;
+    letter-spacing: 0.57px;
+    margin-right: 2rem;
+}
+
+.no-pad {
+	padding: 0;
+}
+
+.icon {
+	max-height: 1.9rem;
+	margin-right: 18px;
+}
+
+.text {
+    max-width: 16rem;
+}
+
+img[src="img/about-us/imac.jpg"] {
+	min-height: 100%;
+	min-width: 100%;
+}
+
+#parallax {
+	background-image: url("img/about-us/iphones.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 35rem;
+	width: 100%;
+}
+
+.job-title {
+	font-family: ProximaNova-Semibold;
+	font-size: 17px;
+	color: #494949;
+	letter-spacing: 1.5px;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+.company {
+	font-family: ProximaNova-Regular;
+	font-size: 15px;
+	color: #494949;
+	letter-spacing: 1.5px;
+	line-height: 28px;
+	text-transform: uppercase;
+}
+
+.text-white {
+	color: white !important;
+}
+
+.gray-background {
+	background-color: #F9F9FB;
+}
+
+.black-background {
+    background-color: black;
+    padding: 100px 30px;
+}
+
+.map {
+	background-image: url("img/about-us/map.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 35rem;
+}
+
+.map:hover {
+	background-image: url("img/about-us/map.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 35rem;
+}
+
+.cont {
+	height: 15rem;
+	margin-top: 200px;
+}
+
+.widthy {
+	width: 80%;
+}
+
+.blue-cta {
+	height: 12rem;
+	background-color: #0057FF;
+	transition-duration: .5s;
+}
+
+.blue-cta:hover {
+	height: 12rem;
+	background-color: #004EE8;
+}
+
+img[src="img/about-us/arrow.png"] {
+	height: 1.5rem;
+	margin-left: 20px;
+}
+
+ul, li {
+	display: inline-block;
+	list-style: none;
+}
+
+.social-icons>ul>li>a>img {
+	height: 2rem;
+	margin-right: 20px;
+}
+
+.footer-container {
+	height: 7rem;
+}
+
+.blue-hover {
+	transition-duration: .5s;
+}
+
+.blue-hover:hover {
+	color: #052C7D
+}
+
+/*UI DESIGN*/
+
+.cover {
+	width: 100%;
+    height: 25em;	
+	transition-duration: 1s;
+	background-color: #F9F9FB;
+}
+
+.cover:hover {
+	background-color: #F9F9FB;
+}
+
+.portfolio-slide {
+	transform: 1;
+	transform: translateY(0px);
+	transition-duration: .4s;
+	background-color: #F9F9FB;
+	opacity: 1;
+	z-index: 5;
+}
+
+.portfolio-slide:hover {
+	background-color: #F9F9FB;
+	transform: translateY(15px);
+	opacity: 0;
+}
+
+.ios-height {
+	max-height: 85%;
+	max-width: 100%;
+}
+
+
+/*CONTACT US*/
+
+.name {
+	background-image: url('img/contact-us/phone.png');
+	background-position: 6% 50%;;
+	background-repeat: no-repeat;
+	background-size: 1.2rem;
+}
+
+.email {
+	background-image: url('img/contact-us/email.png');
+	background-position: 6% 50%;;
+	background-repeat: no-repeat;
+	background-size: 1.2rem;
+}
+
+.message {
+	background-image: url('img/contact-us/message.png');
+	background-position: 6% 50%;;
+	background-repeat: no-repeat;
+	background-size: 1.2rem;
+}
+
+::placeholder { 
+	padding-left: 25px !important;
+	font-family: ProximaNova-Regular ;
+	font-size: 16px ;
+	color: #989898 !important;
+	letter-spacing: 0 ;
+	line-height: 28px ; 
+}
+
+input {
+	background: #FFFFFF;
+	border: 2px solid #E8E6E9 !important;
+	border-radius: 4px !important;
+}
+
+input:hover {
+	background: #FFFFFF;
+	border: 2px solid #E1DFE2 !important;
+	border-radius: 4px !important;
+}
+
+input:focus {
+	background: #FFFFFF;
+	border: 2px solid #0057FF !important;
+	border-radius: 4px !important;
+}
+
+.btn-block {
+	background: #0057FF;
+	border-radius: 4px;
+	transition-duration: .5s;
+	font-family: ProximaNova-Regular;
+	font-size: 12px;
+	color: #FFFFFF;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.btn-block:hover {
+	background: #004CEA;
+	border-radius: 4px;
+}
+
+.p-style {
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #989898;
+	letter-spacing: 0;
+	line-height: 28px;
+}
+
+.p-style:hover {
+	font-family: ProximaNova-Regular;
+	font-size: 16px;
+	color: #9DB1E5
+	letter-spacing: 0;
+	line-height: 28px;
+}
+
+
+
+/*MEDIA QUERIES*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+@media (max-width: 576px) { 
+	.extra-pad {
+		margin-top: 15px;
+	}
+
+	.footer-container {
+		flex-direction: column;
+	}
+
+	.footer {
+		order: 2;
+		text-align: center;
+		margin-bottom: 50px;
+	}
+
+	.mobile-width {
+		width: 100%;
+		margin-top: 15px;
+	}
+
+	.social-icons {
+		order: 1;
+		margin-top: 50px;
+		margin-bottom: 35px;
+	}
+	
+	h1 {
+		margin-top: 190px;
+	}
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+@media (max-width: 768px) {
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+@media (max-width: 992px) {
+	.cover{
+		height:20em !important;
+		width: 100% !important;
+	}
+}
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 900px) and (max-width: 1100px) {
+	.cover{
+		height:24em !important;
+	}
+}
+
+
+...........................................................
+
+/*// large desktops, 1100px and 1200px*/
+@media (min-width: 1100px) and (max-width: 1200px) {
+	.cover{
+		height:28em !important;
+	}
+}
+
+/*// large desktops, 1200px and 1300px*/
+@media (min-width: 1200px) and (max-width: 1300px) {
+	.cover{
+		height:15em !important;
+	}
+}
+
+
+/*// large desktops, 1300px and 1400px*/
+@media (min-width: 1300px) and (max-width: 1400px) {
+	.cover{
+		height:16em !important;
+	}
+}
+
+/*// large desktops, 1400px and 1500px*/
+@media (min-width: 1400px) and (max-width: 1500px) {
+	.cover{
+		height:18em !important;
+	}
+}
+
+/*// large desktops, 1500px and 1600px*/
+@media (min-width: 1500px) and (max-width: 1600px) {
+	.cover{
+		height:18em !important;
+	}
+}
+
+/*// large desktops, 1600px and 1700px*/
+@media (min-width: 1600px) and (max-width: 1700px) {
+	.cover{
+		height:20em !important;
+	}
+}
+
+/*// large desktops, 1700px and up*/
+@media (min-width: 1700px){
+	.cover{
+		height:20em !important;
+	}
+}
+
+/*// large desktops, 1800px and 1900px*/
+@media (min-width: 1800px) and (max-width: 1900px) {
+	.cover{
+		height:22em !important;
+	}
+}
+
+/*// large desktops, 1900px and up)*/
+@media (min-width: 1900px) {
+	.cover{
+		height:27em !important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
